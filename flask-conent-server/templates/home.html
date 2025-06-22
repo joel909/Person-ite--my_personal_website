@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Yo This is Joel</title>
+    <link href="C:\Users\joelj\Desktop\Programing\personal-site-v1-plain\static-page-contnet\styles.css" rel="stylesheet" type="text/css">
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" type="text/css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Syne:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="profile-show-container">
+        <h1 class="hello-there">Hello There, </h1>
+        <h1 class="im-joel">I'm Joel</h1>
+        <img class="profile-pic" src="{{ url_for('static', filename='images/joelmeinscrapyard.jpeg') }}" alt="Joel at scrapyard Bengaluru">
+        <p class="profile-pic-desc">Sometimes life's gonna hit ur</p>
+        <p class="profile-pic-desc-l-1">your head with a mic</p>
+        <p class="profile-pic-desc-l-1">don't loose faith keep yapping</p>
+        <p class="profile-pic-desc-l-last">~~by Meh</p>
+    </div>
+    <div class="about-me-container">
+        <p class="decription">Okay, Yo Visitor !</p>
+        <p class="decription">I'm Joel, and I am 17(yes).I love writing code,lifting weights,playing anything(literally) and like most 17 y/o 's I also study (a bit) for something i din't want to sign-up for JEE. Now that reminds me of something I signed up for HACK CLUB, something I've been part of for a long time.My Love for coding made me host 2 hackathons  <a href="https://counterspell.hackclub.com/bengaluru" class="decription-1">CounterSpell</a> <a class="decription-1">and</a>  <a  href="https://scrapyard.hackclub.com/bengaluru" class="decription-1">Scrapyard</a></p>
+    </div>
+</body>
+</html>
