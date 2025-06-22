@@ -7,4 +7,4 @@ def home():
     return render_template('home.html')
 
 while True:
-    app.run()
+    app.run(debug=False,host="0.0.0.0",port=5000)
