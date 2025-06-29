@@ -1,12 +1,18 @@
 .body{
     background-color: #000000;
     display: flex;
+    flex-direction: row;
+    
+}
+.intro-container{
+    display: flex;
+
 }
 .profile-show-container{
     flex : 1
 }
-.about-me-container{
-    margin-left: -8vw;
+.content-container{
+    margin-left: -18vw;
     margin-top: 3vh;
     flex : 2;
 }
@@ -58,7 +64,12 @@
 }
 
 @media (max-width: 767px) {
-    .about-me-container{
+    .intro-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-container{
         margin-left: 0;
         margin-top: 0;
         flex: 1;
@@ -102,7 +113,66 @@
     align-self: top;
     text-align: start;
 }
+
+.media-btn{
+    height: 4vh;
+    width: 4vw;
+    border-radius: 10px;
+    background-color: #f70707;
+    font-family: "Space Grotesk";
+
+
+}
+
+.connect-w-me {
+  color: #58f795f1;
+  font-size:6vh;
+  text-align: center;
+  font-family: "Space Grotesk";
+}
+
+.button-links-connect-container{
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.connect-with-me-btn-insta{
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(255, 0, 191, 0.932);
+    border: none;
+    font-family: "Space Grotesk";
+    font-size: 3vh;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 20px;
+    width:max-content
+}
+.connect-with-me-btn-insta-text{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-family: "Space Grotesk";
+
+}
+
+.connect-with-me-btn-insta-svg{
+    background-color:rgba(255, 0, 191, 0.932);
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+
+    border-radius: 20px;
+    width: 12vw;
+}
 @media (min-width: 768px) and (max-width: 1440px) {
+    
   .hello-there{
     text-align: left;
     margin-left: 3.5vw;
@@ -138,9 +208,26 @@
 }
 .decription{
     text-align: left;
-    font-size: 2vh;
+    font-size: 4vh;
     margin-left: 2.7vw;
+  }
+  .decription-1{
+    text-align: left;
+    font-size: 4vh;
   }
 
 }
+@media (min-width: 1500px)  {
+    .content-container{
+        margin-left: -8vw;
+        
+    }
+    
 
+}
+
+@media (max-width: 480px) {
+  .body{
+    /* background-color: #FFFFFF; */
+  }
+}

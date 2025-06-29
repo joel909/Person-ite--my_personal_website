@@ -9,23 +9,48 @@
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
 
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Syne:wght@600&display=swap" rel="stylesheet">
 </head>
 
 <body class="body">
-    <div class="profile-show-container">
-        <h1 class="hello-there">Hello There, </h1>
-        <h1 class="im-joel">I'm Joel</h1>
-        <img class="profile-pic" src="{{ url_for('static', filename='images/joelmeinscrapyard.jpeg') }}" alt="Joel at scrapyard Bengaluru">
-        <p class="profile-pic-desc">Sometimes life's gonna hit ur</p>
-        <p class="profile-pic-desc-l-1">your head with a mic</p>
-        <p class="profile-pic-desc-l-1">don't loose faith keep yapping</p>
-        <p class="profile-pic-desc-l-last">~~by Meh</p>
+    <div class="intro-container">
+        <div class="profile-show-container">
+            <h1 class="hello-there">Hello There, </h1>
+            <h1 class="im-joel">I'm Joel</h1>
+            <img class="profile-pic" src="{{ url_for('static', filename='images/joelmeinscrapyard.jpeg') }}" alt="Joel at scrapyard Bengaluru">
+            <p class="profile-pic-desc">Sometimes life's gonna hit ur</p>
+            <p class="profile-pic-desc-l-1">your head with a mic</p>
+            <p class="profile-pic-desc-l-1">don't loose faith keep yapping</p>
+            <p class="profile-pic-desc-l-last">~~by Meh</p>
+        </div>
+        <div class="content-container">
+            <div class="meh">
+                <p class="decription">Okay, Yo Visitor !</p>
+                <p class="decription">I'm Joel, and I am 17 (yes). I love writing code, lifting weights, playing anything (literally) and like most 17 y/o's I also study (a bit) for JEE. Now that reminds me of something I signed up for HACK CLUB, something I've been part of for a long time. My love for coding made me host 2 hackathons <a href="https://counterspell.hackclub.com/bengaluru" class="decription-1">CounterSpell</a> <a class="decription-1">and</a> <a href="https://scrapyard.hackclub.com/bengaluru" class="decription-1">Scrapyard</a> in Bengaluru it was amazing and one of the top 10 things I did. My builder instincts also took me towards an entrepreneurship journey, in 2024 April I started Klide a next-gen POS which is currently still under dev, I'm also building the future of Non-Profit education through Stedu, by working on an Edutech platform called Stedu OS and that's all about me,</p>
+            </div>
+            <div class="connect-w-me-cont">
+                <h1 class="connect-w-me">Connect W Me</h1>
+                <div class="button-links-connect-container">
+                    <button class="connect-with-me-btn-insta">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="-100px" y="-3px" width="50" height="50" viewBox="0 0 48 48"><radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"></stop><stop offset=".328" stop-color="#ff543f"></stop><stop offset=".348" stop-color="#fc5245"></stop><stop offset=".504" stop-color="#e64771"></stop><stop offset=".643" stop-color="#d53e91"></stop><stop offset=".761" stop-color="#cc39a4"></stop><stop offset=".841" stop-color="#c837ab"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"></stop><stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"></path><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"></path></svg>
+                        <span class="connect-with-me-btn-insta-text">Instagram</span>
+                    </button>
+
+                    <button class="connect-with-me-btn-insta">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="-100px" y="-3px" width="50" height="50" viewBox="0 0 48 48"><radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"></stop><stop offset=".328" stop-color="#ff543f"></stop><stop offset=".348" stop-color="#fc5245"></stop><stop offset=".504" stop-color="#e64771"></stop><stop offset=".643" stop-color="#d53e91"></stop><stop offset=".761" stop-color="#cc39a4"></stop><stop offset=".841" stop-color="#c837ab"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"></stop><stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"></path><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"></path></svg>
+                        <span class="connect-with-me-btn-insta-text">Instagram</span>
+                    </button>
+                    
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="about-me-container">
-        <p class="decription">Okay, Yo Visitor !</p>
-        <p class="decription">I'm Joel, and I am 17(yes).I love writing code,lifting weights,playing anything(literally) and like most 17 y/o 's I also study (a bit) for something i din't want to sign-up for JEE. Now that reminds me of something I signed up for HACK CLUB, something I've been part of for a long time.My Love for coding made me host 2 hackathons  <a href="https://counterspell.hackclub.com/bengaluru" class="decription-1">CounterSpell</a> <a class="decription-1">and</a>  <a  href="https://scrapyard.hackclub.com/bengaluru" class="decription-1">Scrapyard</a></p>
-    </div>
+    
+    
+    
+    
+
 </body>
 </html>
