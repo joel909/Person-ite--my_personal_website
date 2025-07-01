@@ -1,12 +1,41 @@
 .body{
     background-color: #000000;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
 }
 .intro-container{
     display: flex;
 
+}
+not-found-image{
+    width: 100%;
+    height: 100%;
+    
+    
+    
+}
+.not-found{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 22vw;
+    top: 30vh;
+    display: flex;
+    justify-content: end;
+    height: 93vh;
+    width: 99vh;
+    background-color: #000000;
+}
+.footer-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 20px 0;
+    margin-top: 15px;
 }
 .profile-show-container{
     flex : 1
@@ -103,6 +132,15 @@
     align-self: top;
     text-align: start;
 }
+.decription-4{
+    color: #FFFFFF;
+    font-size: 2vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-left: 2.7vw;
+    align-self: top;
+    text-align: start;
+}
 .decription-1{
     color: #FFFFFF;
     font-size: 2vh;
@@ -131,6 +169,12 @@
   font-family: "Space Grotesk";
 }
 
+.hackatime-stats {
+  height: 34vh;
+  float: left;
+  
+}
+
 .button-links-connect-container{
     margin-left: 5vw;
     display: flex;
@@ -150,7 +194,8 @@
     margin: 0;
     cursor: pointer;
     border-radius: 20px;
-    width:max-content
+    width:max-content;
+    margin-left: 2vw;
 }
 .connect-with-me-btn-insta-text{
     margin-top: auto;
@@ -171,6 +216,65 @@
     border-radius: 20px;
     width: 12vw;
 }
+
+.connect-with-me-btn-linkdin-svg{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2vw;
+}
+
+.connect-with-me-btn-linkdin{
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(0, 64, 255, 0.932);
+    border: none;
+    font-family: "Space Grotesk";
+    font-size: 3vh;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 20px;
+    width:max-content;
+    margin-left: 2vw;
+    
+}
+
+.connect-with-me-btn-github{
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(183, 191, 223, 0.932);
+    border: none;
+    font-family: "Space Grotesk";
+    font-size: 3vh;
+    color: #e8dfdf;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 20px;
+    width:max-content;
+    margin-left: 2vw;
+}
+.connect-with-me-btn-mail{
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(87, 170, 166, 0.932);
+    border: none;
+    font-family: "Space Grotesk";
+    font-size: 3vh;
+    color: #e8dfdf;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 20px;
+    width:max-content;
+    margin-left: 2vw;
+}
+.my-exp{
+    display: flex;
+    flex-direction: column;
+    
+}
 @media (min-width: 768px) and (max-width: 1440px) {
     
   .hello-there{
@@ -181,6 +285,16 @@
     text-align: left;
     margin-left: 3.5vw;
   }
+  .footer{
+  background-color: #222;
+  color: #eee;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-text{
+
+}
+
   .profile-pic{
     margin-left: 2.7vw ;
     width: 30vh;
@@ -215,6 +329,11 @@
     text-align: left;
     font-size: 4vh;
   }
+  .decription-4{
+    text-align: left;
+    font-size: 4vh;
+    margin-left: 2.7vw;
+  }
 
 }
 @media (min-width: 1500px)  {
@@ -227,7 +346,41 @@
 }
 
 @media (max-width: 480px) {
-  .body{
-    /* background-color: #FFFFFF; */
+    .not-found{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+  .button-links-connect-container {
+    flex-direction: column;
+    align-items: center;
   }
+  .connect-with-me-btn-insta {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: -10px;
+  }
+    .connect-with-me-btn-linkdin {
+        width: 100%;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    }
+    .connect-with-me-btn-github {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: -10px;
+}
+.connect-with-me-btn-mail {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: -10px;
+  }
+  .hackatime-stats {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    
+  }
+  
 }
