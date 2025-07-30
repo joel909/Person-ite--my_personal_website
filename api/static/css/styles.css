@@ -8,11 +8,16 @@
     display: flex;
 
 }
+.big-button {
+  padding: 16px 32px;       /* More space inside */
+  font-size: 18px;          /* Bigger text */
+  width: 200px;             /* Optional: fixed width */
+  height: 60px;             /* Optional: fixed height */
+}
+
 not-found-image{
     width: 100%;
     height: 100%;
-    
-    
     
 }
 .not-found{
@@ -53,6 +58,77 @@ not-found-image{
     font-family: "Space Grotesk";
     margin-bottom: -4vh;
     
+}
+.read-a-little{
+   margin-top: 0px;
+    color: #FFFFFF;
+    font-size: 3vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-bottom: -4vh;
+}
+.journey-desc{
+     color: #FFFFFF;
+    font-size: 2vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 60px;
+    margin-bottom: 1.5vh;
+    margin-left: 2.7vw;
+    align-self: top;
+    text-align: start;
+}
+.journey-desc-2{
+     color: #FFFFFF;    
+    
+    font-size: 2vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 10px;
+    margin-left: 10vh;
+    margin-bottom: 2vh;
+    align-self: top;
+    text-align: start;
+
+}
+.journey-desc-3{
+     color: #FFFFFF;    
+    
+    font-size: 2vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 40px;
+    margin-left: 10vh;
+    margin-bottom: -1.4vh;
+    align-self: top;
+    text-align: start;
+
+}
+.journey-desc-3{
+     color: #ff0202;    
+    
+    font-size: 2vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 40px;
+    margin-left: 10vh;
+    margin-bottom: -1.9vh;
+    align-self: top;
+    text-align: start;
+
+}
+.sign-off{
+     color: #0004ff;    
+    
+    font-size: 2vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 40px;
+    margin-left: 90vw;
+    margin-bottom: -1.9vh;
+    align-self: top;
+    text-align: start;
+
 }
 .im-joel{
     color: #FFFFFF;
@@ -206,6 +282,24 @@ not-found-image{
 
 }
 
+.connect-with-me-btn-insta:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+.connect-with-me-btn-github:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+.connect-with-me-btn-linkdin:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.connect-with-me-btn-mail:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+
 .connect-with-me-btn-insta-svg{
     background-color:rgba(255, 0, 191, 0.932);
     border: none;
@@ -346,6 +440,55 @@ not-found-image{
 }
 
 @media (max-width: 480px) {
+    .journey-desc{
+     color: #f10c0c;
+    font-size: 2vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 60px;
+    margin-left: 8px;
+    margin-bottom: 1.5vh;
+    align-self: top;
+    text-align: start;
+}
+.journey-desc-2{
+     color: #FFFFFF;    
+    
+    font-size: 2vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-bottom: 2vh;
+    align-self: top;
+    text-align: start;
+
+}
+
+.journey-desc-3{
+     color: #3eee09;    
+    
+    font-size: 2vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 40px;
+    
+    margin-bottom: -1.9vh;
+    align-self: top;
+    text-align: start;
+
+}
+.sign-off{
+     color: #0004ff;    
+    font-size: 2vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 40px;
+    margin-left: 70vw;
+    margin-bottom: -1.9vh;
+    align-self: top;
+    text-align: start;
+
     .not-found{
     position: relative;
     display: flex;
@@ -383,4 +526,5 @@ not-found-image{
     
   }
   
+}
 }
